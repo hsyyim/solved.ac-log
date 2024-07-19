@@ -40,6 +40,7 @@
 		BFD651992C40D3C8009B92FF /* 27866.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27866.swift; sourceTree = "<group>"; };
 		BFE07B8E2C49568900B9C107 /* 2562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2562.swift; sourceTree = "<group>"; };
 		BFE07B8F2C495E9600B9C107 /* 10818.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10818.swift; sourceTree = "<group>"; };
+		BFF031172C49FE2700EA088B /* 4153.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4153.swift; sourceTree = "<group>"; };
 		BFF42A562C48D8CA00792726 /* 11720.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11720.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +76,7 @@
 			children = (
 				BF0DE8C82C3F6BF0002CF08D /* main.swift */,
 				BF0DE8CF2C3F74EB002CF08D /* Class1 */,
+				BFF031162C49FE1B00EA088B /* Class2 */,
 			);
 			path = "solved-ac-programming";
 			sourceTree = "<group>";
@@ -100,6 +102,14 @@
 				BF0DE8D02C3F74FC002CF08D /* 11654.swift */,
 			);
 			path = Class1;
+			sourceTree = "<group>";
+		};
+		BFF031162C49FE1B00EA088B /* Class2 */ = {
+			isa = PBXGroup;
+			children = (
+				BFF031172C49FE2700EA088B /* 4153.swift */,
+			);
+			path = Class2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
