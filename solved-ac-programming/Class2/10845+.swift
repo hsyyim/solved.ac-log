@@ -60,14 +60,6 @@ final class IndexQueue<T> {
     }
 }
 
-// MARK: - 성능 측정 함수
-func measureTime(title: String, operation: () -> Void) {
-    let start = DispatchTime.now()
-    operation()
-    let end = DispatchTime.now()
-    let elapsed = Double(end.uptimeNanoseconds - start.uptimeNanoseconds) / 1_000_000_000.0
-    print("\(title) - 소요 시간: \(elapsed)초")
-}
 
 // MARK: - 벤치마크 실행
 func runBenchmark() {
