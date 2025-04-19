@@ -71,23 +71,22 @@ func solveWithBinarySearch() {
     for number in numbersToFind {
         print("\(binarySearch(referenceNumbers, number) ? "1" : "0")")
     }
+}
+// 이분 탐색 함수
+func binarySearch(_ sortedArray: [Int], _ target: Int) -> Bool {
+    var left = 0
+    var right = sortedArray.count - 1
     
-    // 이분 탐색 함수
-    func binarySearch(_ sortedArray: [Int], _ target: Int) -> Bool {
-        var left = 0
-        var right = sortedArray.count - 1
+    while left <= right {
+        let mid = (left + right) / 2
         
-        while left <= right {
-            var mid = (left + right) / 2
-            
-            if sortedArray[mid] == target {
-                return true
-            } else if sortedArray[mid] < target {
-                left = mid + 1
-            } else {
-                right = mid - 1
-            }
+        if sortedArray[mid] == target {
+            return true
+        } else if sortedArray[mid] < target {
+            left = mid + 1
+        } else {
+            right = mid - 1
         }
-        return false
     }
+    return false
 }
